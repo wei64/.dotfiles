@@ -1,8 +1,8 @@
 
 
 init:
-	rm ~/.emacs
-	rm ~/.emacs.d
+	rm -f ~/.emacs
+	rm -rf ~/.emacs.d
 	ln -fs `pwd`/emacs/emacs	~/.emacs
 	ln -fs `pwd`/emacs		~/.emacs.d
 
