@@ -14,7 +14,7 @@
 
 2.执行安装脚本::
 
-    make
+    make install
 
 3.更新.dotfiles::
 
