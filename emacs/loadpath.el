@@ -68,3 +68,4 @@
 (load "~/.emacs.d/languages/erlang.el")
 (load "~/.emacs.d/languages/golang.el")
 (load "~/.emacs.d/languages/php.el" )
+(load "~/.emacs.d/languages/web.el" )
