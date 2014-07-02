@@ -19,13 +19,21 @@
 
     make pull
 
+说明
+========
+1. 对下面这些语言支持较好::
 
+    erlang
+    golang
+    php
+
+2. 使用go的自动autocomplete时需要使用: https://github.com/nsf/gocode
 
 注意事项
 ================
 
 * 请备份好自己的配置文件
-* 不保证适应所有os
+* 不保证适应所有os(主要用于类linux系统)
 * 对可能出现的问题不负任何责任
 
 
