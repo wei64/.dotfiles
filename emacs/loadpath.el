@@ -24,7 +24,7 @@
 (add-to-list 'load-path "~/.emacs.d/config/auto-complete")
 ; Load the default configuration
 (require 'go-autocomplete)
-(require 'auto-complete-config)
+;(require 'auto-complete-config)
 ; Make sure we can find the dictionaries
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/config/auto-complete/ac-dict")
 
@@ -70,8 +70,8 @@
 (load "~/.emacs.d/languages/web.el" )
 
 
-(load "~/.emacs.d/languages/go-mode-load.el")
+;(load "~/.emacs.d/languages/go-mode-load.el")
 
 
 
-(require 'go-mode-load)
+;;(require 'go-mode-load)
