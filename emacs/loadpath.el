@@ -70,8 +70,19 @@
 (load "~/.emacs.d/languages/web.el" )
 
 
+
 ;(load "~/.emacs.d/languages/go-mode-load.el")
 
 
 
 ;;(require 'go-mode-load)
+
+
+
+;; ===================================================
+;;  依赖相关
+;; ===================================================
+
+(load "~/.emacs.d/deps.el" )
+
+

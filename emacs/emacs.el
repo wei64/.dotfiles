@@ -12,6 +12,8 @@
 (setq display-time-day-and-date t)
 (display-time)
 
+
+
 ;;------------未整理的配置------------------------------------------
 ;; 显示括号匹配 
 (show-paren-mode t)
