@@ -12,6 +12,14 @@
 (setq display-time-day-and-date t)
 (display-time)
 
+;;代码折叠
+(add-hook 'c-mode-hook 'hs-minor-mode)
+(add-hook 'c++-mode-hook 'hs-minor-mode)  
+(add-hook 'go-mode-hook 'hs-minor-mode)  
+(add-hook 'php-mode-hook 'hs-minor-mode)  
+;; (add-hook 'erlang-mode-hook 'hs-minor-mode)  ;; seems like no useful
+
+
 
 
 ;;------------未整理的配置------------------------------------------
