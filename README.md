@@ -1,6 +1,5 @@
 我的emacs配置文件
 
-
 使用方法
 ==============
 
@@ -21,11 +20,13 @@
 
 说明
 ========
-1. 对下面这些语言支持较好::
+1. 对下面这些文件支持较好::
 
-    erlang
-    golang
-    php
+    .erl
+    .go
+    .php
+    .md
+    .html
 
 2. 使用go的自动autocomplete时需要使用: https://github.com/nsf/gocode
 

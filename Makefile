@@ -3,6 +3,7 @@ defautl:
 	@echo "use the following options:"
 	@echo -e "\tmake install"
 	@echo -e "\tmake pull"
+	@echo -e "\tmake push"
 
 
 install:
