@@ -1,4 +1,4 @@
-;(add-to-list 'load-path  "~/.emacs.d/")
+;(add-to-list 'load-path  "~/.emacs.d")
 
 (mapc 'load (directory-files "~/.emacs.d" t "^[a-zA-Z0-9].*.el$"))
 
