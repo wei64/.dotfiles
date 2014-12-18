@@ -7,7 +7,7 @@
 1.Clone这个项目::
 
     cd ~
-    git clone git://github.com/wei64/.dotfiles.git
+    git clone git://github.com/zhaoweiguo/.dotfiles.git
     cd ./.dotfiles
 
 2.执行安装脚本::
