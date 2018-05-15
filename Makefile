@@ -1,5 +1,5 @@
 
-defautl:
+default:
 	@echo "use the following options:"
 	@echo -e "\tmake install"
 	@echo -e "\tmake pull"

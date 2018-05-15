@@ -6,7 +6,8 @@
 ;; 设置缩进
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
-(setq-default indent-line-function 'insert-tab)
+;; 删除解决emacs在mac下回车后自动加tab的问题
+;;(setq-default indent-line-function 'insert-tab)
 
 (setq display-time-24hr-format t)
 (setq display-time-day-and-date t)
