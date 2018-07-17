@@ -64,12 +64,12 @@
 ;; =================================================
 
 ;;(add-to-list 'load-path "~/.emacs.d/languages/erlang.el" )
-(load "~/.emacs.d/languages/erlang.el")
-(load "~/.emacs.d/languages/golang.el")
-(load "~/.emacs.d/languages/php.el" )
-(load "~/.emacs.d/languages/web.el" )
-(load "~/.emacs.d/languages/toml-mode.el" )
-(load "~/.emacs.d/languages/markdown-mode.el" )
+;;(load "~/.emacs.d/languages/erlang.el")
+;;(load "~/.emacs.d/languages/golang.el")
+;;(load "~/.emacs.d/languages/php.el" )
+;;(load "~/.emacs.d/languages/web.el" )
+;;(load "~/.emacs.d/languages/toml-mode.el" )
+;;(load "~/.emacs.d/languages/markdown-mode.el" )
 
 
 
