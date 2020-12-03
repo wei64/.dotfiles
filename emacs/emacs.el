@@ -5,7 +5,7 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 ;; 设置缩进
 (setq-default indent-tabs-mode nil)
-(setq-default tab-width 4)
+(setq-default tab-width 2)
 ;; 删除解决emacs在mac下回车后自动加tab的问题
 ;;(setq-default indent-line-function 'insert-tab)
 
@@ -36,8 +36,9 @@
 
 ;; 设置字体
 ;; 方法为: emacs->options->Set Default Font->"M-x describe-font"查看当前使用的字体名称、字体大小
-(set-default-font " -bitstream-Courier 10 Pitch-normal-normal-normal-*-19-*-*-*-m-0-iso10646-1")
- 
+;(set-default-font " -bitstream-Courier 10 Pitch-normal-normal-normal-*-19-*-*-*-m-0-iso10646-1")   ;; GNU Emacs 27.1之后废弃set-default-font用法
+(set-frame-font " -bitstream-Courier 10 Pitch-normal-normal-normal-*-19-*-*-*-m-0-iso10646-1")
+
 ;; 显示列号
 (setq column-number-mode t)
 (setq line-number-mode t)
